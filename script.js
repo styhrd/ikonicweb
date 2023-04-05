@@ -8,15 +8,4 @@ const mobile_menu= document.querySelector('.mobile-nav');
     });
 
 
-const top = document.querySelector(".to-top");
-window.addEventListener("scroll",()=>{
-    if(window.pageYOffset>100)
-    {
-       top.classList.add("active") 
-    }else
-    {
-        top.classList.remove("active");
-    }
-})
-
 
