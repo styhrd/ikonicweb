@@ -883,6 +883,10 @@ hr
         padding: 0% 10% 0%;
     }
 
+    .window6_1
+    {
+        width: 100%;
+    }
     .window6_2
     {
         flex-direction: column;
@@ -942,6 +946,7 @@ hr
     }
     .header
     {
+        flex-direction: column;
         text-align: center;
     }
 }
