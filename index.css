@@ -749,7 +749,14 @@ hr
 @media (max-width:1040px)
 {
 
-    
+    html
+    {
+        width: 100%;
+    }
+    body
+    {
+        width: 100%;
+    }
     .navbar
     {
         position: fixed;
