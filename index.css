@@ -129,33 +129,7 @@ nav
     transition: 0.4s;
 }
 
-.hamburger:hover span:nth-child(2)
-{
-    transform: translateX(10px);
-    background-color: var(--dark);
-}
 
-.hamburger.is-active span:nth-child(1)
-{
-    transform: translate(0px,-20px) rotate(45deg);
-}
-
-.hamburger.is-active span:nth-child(2)
-{
-    opacity: 0;
-    transform: translateX(15px);
-}
- 
-.hamburger.is-active span:nth-child(3)
-{
-    transform: translate(-4px,4px) rotate(-65deg);
-}
-
-
-.hamburger.is-active:hover span
-{
-    background-color: var(--dark);
-}
 
 .menu
 {
@@ -428,13 +402,14 @@ nav
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    width: 400px;
+    width: 33%;
     row-gap: 10px;
     font-size: 1em;
 }
 
 .window4 img
 {
+    width: 400px;
     max-width: 100%;
     max-height: 100%;
 }
@@ -500,14 +475,22 @@ nav
 .window6_2
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .window6_2 img
 {
-    width: 500px;
+    width: 400px;
     max-width: 100%;
     max-height: 100%;
     
+}
+
+.pic
+{
+    width: 33%;
 }
 
 
@@ -568,7 +551,10 @@ nav
     padding-top: 2em;
 }
 
-
+.header
+{
+    text-align: center;
+}
 
 
 /*------------------------------*/
@@ -598,6 +584,9 @@ nav
 .flexbox13
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .container13
@@ -611,8 +600,7 @@ nav
 
 .flexbox13 img
 {
-    width: 500px;
-
+    width: 400px;
     max-width: 100%;
     max-height: 100%;
 }
@@ -768,14 +756,14 @@ hr
     }
     .hamburger
     {
-        padding-top: 10em;
+        padding-top: 5em;
         display: block;
         position: fixed;
     }
 
     .hamburger span
     {
-        border: 5px solid #1E1E1E;
+        border: 1px solid #1E1E1E;
     }
     .navcon img
     {
@@ -785,8 +773,8 @@ hr
     }
     .hamburger span
     {
-        width: 100px;
-        height: 20px;
+        width: 50px;
+        height: 5px;
     }
     
     .mobile-nav
@@ -804,8 +792,8 @@ hr
     .mobile-nav a
     {
         width: 100%;
-        margin: 0;padding: .5em;
-        font-size: 5em;
+        margin: 0;padding: 0em 0em 2em;
+        font-size: 2em;
         width:100%;
         text-align: center;
         display: flex;
@@ -820,19 +808,25 @@ hr
 
     #progress
     {
-        bottom: 40px;
-        right:40px;
-        height: 150px;
-        width:150px;
+        background-color: black;
+        bottom: 20px;
+        right:20px;
+        height: 60px;
+        width: 60px;
+        
     }
 
     #progress-value
     {
-        font-size: 80px;
+        height: calc(100% - 10px);
+        width: calc(100% - 10px);
+        font-size: 35px;
     }
+
+
     .contactus a
     {
-        font-size: 3em;
+        font-size: 2em;
         color: #1E1E1E;
     }
 
@@ -842,16 +836,106 @@ hr
         margin-bottom: 1em;
     }
 
-    .content
-    {
-        font-size: 4em;
-    }
+    
     .group
     {
         padding: 10% 0% 10%;
     }
 
+    .flexbox2
+    {
+        flex-direction: column;
+        padding: 0% 10% 0%;
+    }
 
-    
+    .flexbox4
+    {
+        flex-direction: column;
+    }
+
+    .window4
+    {
+        width: 80%;
+        font-size: 2em;
+        padding-bottom: 2em;
+
+    }
+
+    .window4 img
+    {
+        width: 600px;
+    }
+
+    .header
+    {
+        font-size: 7em;
+    }
+    .content
+    {
+        font-size: 2em;
+        padding: 0% 10% 0%;
+    }
+
+    .window6_2
+    {
+        flex-direction: column;
+    }
+
+    .pic 
+    {
+        display: grid;
+        place-items: center;
+        width: 100%;
+    }
+
+    .pic img 
+    {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .gallery
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .column
+    {
+        row-gap: 0;
+    }
+    .column img
+    {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .flexbox5
+    {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .window5_1 
+    {
+        width: 100%;
+    }
+
+    .window5_2
+    {
+        width: 100%;
+    }
+    .h4
+    {
+        font-size: 3em;
+    }
+    .h8
+    {
+        max-width: 800px;
+        text-align: center;
+    }
+    .header
+    {
+        text-align: center;
+    }
 }
 
