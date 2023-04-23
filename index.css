@@ -749,14 +749,6 @@ hr
 @media (max-width:1040px)
 {
 
-    html
-    {
-        width: 100%;
-    }
-    body
-    {
-        width: 100%;
-    }
     .navbar
     {
         position: fixed;
@@ -833,7 +825,7 @@ hr
 
     .contactus a
     {
-        font-size: 2em;
+        font-size: 1em;
         color: #1E1E1E;
     }
 
@@ -873,13 +865,10 @@ hr
         width: 600px;
     }
 
-    .header
-    {
-        font-size: 7em;
-    }
+
     .content
     {
-        font-size: 2em;
+        font-size: 1.2em;
         padding: 0% 10% 0%;
     }
 
@@ -946,8 +935,14 @@ hr
     }
     .header
     {
+        font-size: 4em;
         flex-direction: column;
         text-align: center;
+    }
+
+    .mb p
+    {
+        font-size: 1em;
     }
 }
 
