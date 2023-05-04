@@ -1,3 +1,5 @@
+
+
 const hamburger = document.querySelector('.hamburger');
 const mobile_menu= document.querySelector('.mobile-nav');
 
@@ -9,3 +11,7 @@ const mobile_menu= document.querySelector('.mobile-nav');
 
 
 
+window.addEventListener("scroll",function(){
+    var header = document.querySelector("nav");
+    header.classList.toggle("sticky", window.scrollY>0);
+})
