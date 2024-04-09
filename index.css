@@ -531,6 +531,8 @@ hr {
 
 }
 
+
+
 .bgimg2 img {
     width: 50%;
     min-width: none;
@@ -541,6 +543,17 @@ hr {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.bgimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.jsjs {
+    object-fit: fill;
 }
 
 
@@ -554,6 +567,9 @@ hr {
     max-width: 100%;
 }
 
+.shavs {
+    height: 120vh;
+}
 
 
 /*--------------MATERNITY-----------------*/
@@ -670,6 +686,7 @@ hr {
 
 .fam {
     padding-bottom: 5%;
+    margin-top: 10em;
 }
 
 .overlap {
